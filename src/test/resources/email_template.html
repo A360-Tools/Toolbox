@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Bot Started: {processName}</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        background-color: #f8f9fa;
+    }
+    .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .email-header {
+        background-color: #00739D;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .email-header h1 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .email-body {
+        padding: 20px;
+    }
+    .message {
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .details {
+        background-color: #f8f9fa;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .details-row {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .details-row:last-child {
+        margin-bottom: 0;
+    }
+    .details-label {
+        width: 140px;
+        font-weight: bold;
+        color: #666766;
+    }
+    .details-value {
+        flex: 1;
+    }
+    .status-indicator {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background-color: #4CAF50;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .section-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e0e0e0;
+        color: #00739D;
+    }
+    .email-footer {
+        background-color: #f8f9fa;
+        padding: 15px;
+        text-align: center;
+        font-size: 12px;
+        color: #666766;
+        border-top: 1px solid #e0e0e0;
+    }
+    .company-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+    }
+    @media only screen and (max-width: 600px) {
+        .email-container {
+            width: 100% !important;
+            border-radius: 0;
+            border-left: none;
+            border-right: none;
+        }
+        .details-row {
+            flex-direction: column;
+        }
+        .details-label {
+            width: 100%;
+            margin-bottom: 4px;
+        }
+    }
+  </style>
+</head>
+<body>
+<div class="email-container">
+  <div class="email-header">
+    <div class="company-name">COMPANY NAME</div>
+    <h1>Bot Initiation Notification</h1>
+  </div>
+  <div class="email-body">
+    <div class="message">
+      We're pleased to inform you that the requested bot has been successfully initiated and is now
+      running.
+    </div>
+    <div class="details">
+      <div class="details-row">
+        <div class="details-label">Status:</div>
+        <div class="details-value">
+          <span class="status-indicator"></span>Running
+        </div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Process Name:</div>
+        <div class="details-value">{processName}</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">User Name:</div>
+        <div class="details-value">{userName}</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Machine Name:</div>
+        <div class="details-value">{machineName}</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Start Time:</div>
+        <div class="details-value">{startTime}</div>
+      </div>
+    </div>
+    <div class="section-title">Bot Details</div>
+    <div class="details">
+      <div class="message">
+        The bot has been deployed and is actively working on the requested process. You will receive
+        another
+        notification when the process completes or if any issues arise during execution.
+      </div>
+    </div>
+  </div>
+  <div class="email-footer">
+    <p>This is an automated message. Please do not reply to this email.</p>
+  </div>
+</div>
+</body>
+</html>

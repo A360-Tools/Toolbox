@@ -1,0 +1,6 @@
+# generated folders
+/build/
+/.gradle/
+/.idea/
+/src/test/target/
+.claude/settings.local.json
