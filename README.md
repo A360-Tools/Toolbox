@@ -527,48 +527,23 @@ Tests use TestNG framework and follow consistent patterns:
 
 ### How to Install
 
-We provide two package formats for your convenience:
+Download the latest package from the [releases page](https://github.com/A360-Tools/Toolbox/releases).
 
-#### **Option 1: Jar File (Recommended)**
+**JAR File (Recommended)**
+- Navigate to **Manage** → **Packages** → **Import**
+- Upload the `.jar` file
 
-1. **Download the Package**
-    - Download the latest `.jar` file from the [releases page](https://github.com/A360-Tools/Toolbox/releases)
+**ZIP File (Community Edition)**
+- Navigate to **Automation** → **Import**
+- Upload the `.zip` file
 
-2. **Import to Control Room**
-    - Log in to your A360 Control Room
-    - Navigate to **Manage** → **Packages**
-    - Click **Import** or **Upload package**
-    - Select the downloaded `.jar` file
-    - Click **Upload**
+### Usage
 
-#### **Option 2: Zip File (Community Edition Compatible)**
+Search for **"Toolbox"** in the Bot Editor Actions panel and drag commands into your workflow.
 
-1. **Download the Package**
-    - Download the latest `.zip` file from the [releases page](https://github.com/A360-Tools/Toolbox/releases)
+### Community Edition Note
 
-2. **Import to Control Room**
-    - Log in to your A360 Control Room
-    - Navigate to **Automation** → **Import**
-    - Select the downloaded `.zip` file
-    - Complete the import process
-
-### Using the Package in Your Bots
-
-Once installed:
-1. Open Bot Editor
-2. In the Actions panel, search for **"Toolbox"** or specific command names
-3. Drag and drop commands into your bot workflow
-
-### Important Note for Community Edition Control Room Users
-
-> **Warning**: Please be aware that in the Community Edition Control Room, the system does not automatically set the latest version of imported packages as the default. To ensure you are using the latest and fully functional features, you must manually change the package version to the latest version in every bot.
-
-**To update package version in your bots:**
-1. Open your bot in Bot Editor
-2. Click on any Toolbox command in your workflow
-3. In the properties panel, locate the package version dropdown
-4. Select the latest version from the dropdown
-5. Save your bot
+> **Important**: Community Edition users must manually update the package version to the latest in each bot's properties panel, as the system does not set it automatically.
 
 ## Support
 
