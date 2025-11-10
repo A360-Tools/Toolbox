@@ -60,6 +60,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Date/DateTime (10 commands)</b></summary>
+<img width="224" height="245" alt="image" src="https://github.com/user-attachments/assets/923bb5c4-668d-4709-b824-511cef3d1772" />
 
 | Command | Description |
 |---------|-------------|
@@ -78,6 +79,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Dictionary (5 commands)</b></summary>
+<img width="213" height="132" alt="image" src="https://github.com/user-attachments/assets/eecf37d2-04e8-417b-9789-a02def9a52df" />
 
 | Command | Description |
 |---------|-------------|
@@ -91,6 +93,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>File (8 commands)</b></summary>
+<img width="221" height="199" alt="image" src="https://github.com/user-attachments/assets/b3814577-d3b2-440f-9ddb-748644a758e3" />
 
 | Command | Description |
 |---------|-------------|
@@ -107,6 +110,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>List (11 commands)</b></summary>
+<img width="222" height="263" alt="image" src="https://github.com/user-attachments/assets/aa53fba4-7263-4098-b625-4d4c47ff500c" />
 
 | Command | Description |
 |---------|-------------|
@@ -126,6 +130,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Number (6 commands)</b></summary>
+<img width="209" height="155" alt="image" src="https://github.com/user-attachments/assets/37325ef2-4db0-4e5e-8902-7719a0f4ff8e" />
 
 | Command | Description |
 |---------|-------------|
@@ -140,6 +145,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Record (2 commands)</b></summary>
+<img width="189" height="70" alt="image" src="https://github.com/user-attachments/assets/d7379310-08c5-469e-a114-edc6702ba64f" />
 
 | Command | Description |
 |---------|-------------|
@@ -150,6 +156,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>String (3 commands)</b></summary>
+<img width="218" height="424" alt="image" src="https://github.com/user-attachments/assets/63cfd85e-50d4-4744-bcc5-67e46a1b73e0" />
 
 | Command | Description |
 |---------|-------------|
@@ -161,6 +168,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Table (16 commands)</b></summary>
+<img width="218" height="357" alt="image" src="https://github.com/user-attachments/assets/ee8778e8-1f7e-41de-856e-9aa92172e1c5" />
 
 | Command | Description |
 |---------|-------------|
@@ -184,6 +192,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>URL (2 commands)</b></summary>
+<img width="212" height="156" alt="image" src="https://github.com/user-attachments/assets/5e9fe9e5-b945-4524-a37c-1ead364e2f27" />
 
 | Command | Description |
 |---------|-------------|
@@ -194,6 +203,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Regex (1 command)</b></summary>
+<img width="176" height="44" alt="image" src="https://github.com/user-attachments/assets/900e48c8-5e27-4010-a2f0-14790f128212" />
 
 | Command | Description |
 |---------|-------------|
@@ -203,6 +213,7 @@ Actions perform data transformations and computations, returning modified values
 
 <details>
 <summary><b>Security (1 command)</b></summary>
+<img width="185" height="49" alt="image" src="https://github.com/user-attachments/assets/b752fa69-2084-43b0-9fca-f2f387e5ff16" />
 
 | Command | Description |
 |---------|-------------|
@@ -343,8 +354,8 @@ Properties extract or transform data properties, typically used for data formatt
 </details>
 
 ### Variables
+</br>Variables provide constant or computed values for common use cases.
 
-Variables provide constant or computed values for common use cases.
 
 <details>
 <summary><b>File Variables (2 commands)</b></summary>
